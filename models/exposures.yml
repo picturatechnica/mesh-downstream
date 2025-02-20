@@ -1,0 +1,7 @@
+exposures:
+  - name: my_first_exposure
+    type: dashboard
+    depends_on:
+      - ref('dim_customers')
+    owner:
+      name: jeremy.yeo@dbtlabs.com
