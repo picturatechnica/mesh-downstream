@@ -8,4 +8,4 @@ models:
     +materialized: table
 
 dbt-cloud:
-  defer-env-id: '{{ env_var("DBT_DEFER_TO_ENV_ID") }}'
+  defer-env-id: '111111'
