@@ -1,1 +1,1 @@
-select * from {{ ref('mesh_upstream', 'up_b') }}
+select * from {{ ref('mesh_upstream', 'up_a') }}
