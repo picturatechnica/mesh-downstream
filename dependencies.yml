@@ -1,2 +1,2 @@
 projects:
-  - name: mesh_upstream
+  - name: "{{ env_var('DBT_DEFER_TO_PROJECT_NAME') }}"

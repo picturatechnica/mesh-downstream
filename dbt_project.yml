@@ -7,5 +7,3 @@ models:
   mesh_downstream:
     +materialized: table
 
-dbt-cloud:
-  defer-env-id: '111111'
